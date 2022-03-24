@@ -33,9 +33,9 @@ body {
 }
 
 input[type='text']{
-    background-color: #3D4153;
+   
     padding: 10px 0px;
-    color: #ffffff;
+    color: #3D4153;
     width: 80%;
     margin: 0 auto;
     border: 2px solid #858299;
@@ -43,8 +43,8 @@ input[type='text']{
     padding: 10px;
 }
 input[type='text']:focus {
-    background-color: #3D4153;
-    color: #fff;
+   
+    color: #3D4153;
     font-size: 20px;
 }
 .numbers {
@@ -95,10 +95,11 @@ color: #E0B612;
     margin-top: 20px;
     border-radius: 15px;
     padding: 5px 20px;
+    display: none;
 }
 .notify-section{
     width: 35%;
-    margin: 0 auto;
+    margin: 20px  auto;
 }
 .action-left {
     color: #FF3C5F;
